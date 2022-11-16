@@ -1,0 +1,33 @@
+.beautiful_div{
+    width: 400px;
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+}
+.key{
+    font-size: 15px;
+}
+div{
+    border: 2px solid black;
+    max-width: 400px;
+    height: 100%;
+}
+.s{
+    height: 40px;
+    width: 123px;
+    left: 174px;
+    top: 691px;
+    border-radius: 30px;
+    padding: 12px 24px 12px 24px;
+    display: none;
+    transition: 1s;
+}
+.ahah2{
+    border: none;
+    transition: 1s;
+}
+.ahah2:hover ~.s{
+    display: block;
+    transition: 1s;
+}
+
